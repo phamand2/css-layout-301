@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
+.logo {
+  margin: 200px auto 0 auto;
+  width: 500px;
+}
+
+.logo img {
+  width: 100%;
+  
+}
+
+.search-bar {
+  display: flex;
+  width: 600px;
+  border: 2px solid lightgray;
+  margin: 36px auto;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.icon-search {
+  margin: 18px;
+
+}
+
+.icon-mic {
+  width: 24px;
+  height: 24px;
+  margin: 18px;
+}
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.search-buttons button {
+  border: none;
+  padding: 18px;
+  font-size: 16px;
+  color: rgb(49, 48, 48);
+  border-radius: 10px;
+  margin: 0 10px; 
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  font-size: 16px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .search-bar input, .search-buttons button {
+    font-size: 20px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+
+.apps img{
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+}
+
+
+.nav div div {
+  padding: 0 10px;
+}
+
